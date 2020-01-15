@@ -21,7 +21,7 @@ body {
 
 /* line 18, ../sass/main.scss */
 body {
-  background-image: url("../assets/background.jpg");
+  background-image: url("../assets/background-loop.jpg");
   background-size: auto 80%;
   animation-name: backgroundAnimation;
   animation-duration: 150s;
@@ -43,7 +43,7 @@ body {
 /* line 37, ../sass/main.scss */
 #leftSide .playerInfo,
 #rightSide .playerInfo {
-  background-image: url(../assets/blend_logo.jpg);
+  background-image: url(../assets/logo-freeze.jpg);
   background-color: black;
   background-size: 380px auto;
   background-repeat: no-repeat;
@@ -93,9 +93,11 @@ body {
 
 /* line 85, ../sass/main.scss */
 .CharName--wrapper {
+  background-image: url("../assets/snowflake.jpg");
+  background-size: 380px auto;
+  background-position-y: 50%;
   position: relative;
   top: 30px;
-  background: black;
   padding: 15px;
   flex: 0 1 auto;
 }
@@ -107,6 +109,7 @@ body {
 }
 /* line 97, ../sass/main.scss */
 .CharName--wrapper .CharNameInfo--Weeb {
+  
   font-size: 18px;
 }
 
@@ -145,7 +148,9 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: black;
+  background-image: url("../assets/snowflake.jpg");
+  background-size: 100%;
+  background-position-y: 50%;
 }
 /* line 141, ../sass/main.scss */
 #bottom .tourneyRound--wrapper, #bottom .tourneyName--wrapper, #bottom .tourneyScore {
