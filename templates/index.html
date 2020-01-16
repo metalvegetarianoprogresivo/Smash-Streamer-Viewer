@@ -26,7 +26,7 @@
         $('#leftCharacterName').html(data.playerOne.character.displayName.en_US)
         $('#leftCharacter').animate({ 'opacity': 0 }, AnimationLength, function () {
           $('#leftSide').css('background', data.playerOne.character.color)
-          $('#leftCharacter').css('background-image', 'url(/renders/' + data.playerOne.character.file + '.png)')
+          $('#leftCharacter').css('background-image', 'url(https://www.smashbros.com/assets_v2/img/fighter/' + data.playerOne.character.file + '/main.png)')
           .attr('class',`CharImage ${data.playerOne.character.file}`)
         }).animate({ 'opacity': 1 }, AnimationLength);
         $('#playerTwoPrefix').text(data.playerTwo.team)
@@ -36,7 +36,7 @@
         $('#rightCharacterName').html(data.playerTwo.character.displayName.en_US)
         $('#rightCharacter').animate({ 'opacity': 0 }, AnimationLength, function () {
           $('#rightSide').css('background', data.playerTwo.character.color)
-          $('#rightCharacter').css('background-image', 'url(/renders/' + data.playerTwo.character.file + '.png)')
+          $('#rightCharacter').css('background-image', 'url(https://www.smashbros.com/assets_v2/img/fighter/' + data.playerTwo.character.file + '/main.png)')
           .attr('class',`CharImage ${data.playerTwo.character.file}`)
         }).animate({ 'opacity': 1 }, AnimationLength);
         $('.tourneyName').text(data.tourneyName)
